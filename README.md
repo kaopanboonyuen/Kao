@@ -5,6 +5,9 @@ Supplementary Files:
 ————————————————————————————
 ————————————————————————————
 
+Day 0 - Python Basic
+https://colab.research.google.com/github/kaopanboonyuen/Kao/blob/master/code/D1-1_Python/colab_tutorial_demo1.ipynb
+
 Day 1 - Morning Session 
 https://colab.research.google.com/github/davidjohnnn/python_workshop/blob/master/code/D1-1_Python/1_Python_Crash_Course_2019_toStudent.ipynb
 

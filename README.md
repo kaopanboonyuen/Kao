@@ -105,7 +105,6 @@ https://colab.research.google.com/github/davidjohnnn/python_workshop/blob/master
 
 ————————————————————————————
 
-
 Day 3 - Afternoon Session 
 
 https://colab.research.google.com/github/kaopanboonyuen/Kao/blob/master/code/D3-2_DL/1_ConvNet%20with%20Cifar10.ipynb

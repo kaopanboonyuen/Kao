@@ -108,11 +108,11 @@ https://colab.research.google.com/github/davidjohnnn/python_workshop/blob/master
 
 Day 3 - Afternoon Session 
 
-https://colab.research.google.com/github/davidjohnnn/python_workshop/blob/master/code/D3-2_DL/1_ConvNet%20with%20Cifar10.ipynb
+https://colab.research.google.com/github/kaopanboonyuen/Kao/blob/master/code/D3-2_DL/1_ConvNet%20with%20Cifar10.ipynb
 
-Joke Exercise: Prime https://colab.research.google.com/drive/1xYf0HeTXte_cvqup55oiPNMsjA_w599j
+Joke Exercise: Prime: https://colab.research.google.com/github/kaopanboonyuen/Kao/blob/master/code/D3-2_DL/Prime_minister_in_Keras_Kao.ipynb
 
-https://colab.research.google.com/github/davidjohnnn/python_workshop/blob/master/code/D3-2_DL/2_LSTM_Stock.ipynb
+https://colab.research.google.com/github/kaopanboonyuen/Kao/blob/master/code/D3-2_DL/2_LSTM_Stock.ipynb
 
 ————————————————————————————
 ————————————————————————————

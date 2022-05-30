@@ -1,0 +1,41 @@
+
+{% extends 'simple.html' %}
+{% load i18n %}
+{% load static %}
+{% load filters %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ settings.HOSTNAME }}{% static 'css/login.css' %}"/>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129877673-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-129877673-1');
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="login_page">
+  <h1>Welcome to INFRA PLUS | Label Studio (POC Edition) {{versions.package.short_version}}</h1>
+  <h2>A full-fledged solution for data labeling of INFRA PLUS AI TEAM</h2>
+
+<img src="https://raw.githubusercontent.com/kaopanboonyuen/Kao/master/image/infra-ai-v1.png" height="128px" />
+
+  <div class="toggle">
+    {% if not settings.DISABLE_SIGNUP_WITHOUT_LINK %}
+        <a href="{{ settings.HOSTNAME }}/user/signup" class="{% if 'signup' in request.path %}active{% endif %}">Sign up</a>
+        <a href="{{ settings.HOSTNAME }}/user/login" class="{% if 'login' in request.path %}active{% endif %}">Log in</a>
+    {% endif %}
+  </div>
+
+<center>
+<a href="https://www.mdpi.com/2078-2489/13/1/5/">INFRA PLUS AI TEAM!</a>
+</center>
+
+
+  {% block user_content %}
+  {% endblock %}
+{% endblock %}
+
